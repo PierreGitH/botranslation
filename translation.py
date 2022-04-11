@@ -3,13 +3,12 @@ import json
 
 
 def get_translation(text, target, source="auto"):
-
     search_api_url = "https://libretranslate.de/translate"
-    headers = {"Content-Type": "application/json" }
+    headers = {"Content-Type": "application/json"}
     body = {'q': text,
-                'source': source,
-                'target': target
-              }
+            'source': source,
+            'target': target
+            }
 
     json_obj = json.dumps(body)
 
