@@ -1,0 +1,7 @@
+*.pyc
+.env
+*.spec
+/dist
+/build
+/LibreTranslate
+/.idea
